@@ -16,6 +16,8 @@
 		8F64CBD81E91658500329499 /* fileuploaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F64CBD71E91658500329499 /* fileuploaderTests.swift */; };
 		8F64CBE31E91932800329499 /* ToastSwiftFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F64CBE21E91932800329499 /* ToastSwiftFramework.framework */; };
 		8F64CBE41E91932800329499 /* ToastSwiftFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F64CBE21E91932800329499 /* ToastSwiftFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F64CBE71E9198B900329499 /* FileBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F64CBE61E9198B900329499 /* FileBrowser.framework */; };
+		8F64CBE81E9198B900329499 /* FileBrowser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F64CBE61E9198B900329499 /* FileBrowser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				8F64CBE41E91932800329499 /* ToastSwiftFramework.framework in Embed Frameworks */,
+				8F64CBE81E9198B900329499 /* FileBrowser.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,6 +58,7 @@
 		8F64CBD71E91658500329499 /* fileuploaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fileuploaderTests.swift; sourceTree = "<group>"; };
 		8F64CBD91E91658500329499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F64CBE21E91932800329499 /* ToastSwiftFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ToastSwiftFramework.framework; path = Carthage/Build/iOS/ToastSwiftFramework.framework; sourceTree = "<group>"; };
+		8F64CBE61E9198B900329499 /* FileBrowser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FileBrowser.framework; path = Carthage/Build/iOS/FileBrowser.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F64CBE31E91932800329499 /* ToastSwiftFramework.framework in Frameworks */,
+				8F64CBE71E9198B900329499 /* FileBrowser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +84,7 @@
 		8F64CBB41E91658500329499 = {
 			isa = PBXGroup;
 			children = (
+				8F64CBE61E9198B900329499 /* FileBrowser.framework */,
 				8F64CBE21E91932800329499 /* ToastSwiftFramework.framework */,
 				8F64CBBF1E91658500329499 /* fileuploader */,
 				8F64CBD61E91658500329499 /* fileuploaderTests */,
